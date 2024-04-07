@@ -1,0 +1,53 @@
+.featured {
+  margin-top: 30px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  z-index: 1;
+  max-width: 1024px;
+}
+
+.featuredItem {
+  cursor: pointer;
+  position: relative;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 50%;
+  height: 200px;
+  flex: 1;
+  transition: all 0.3s ease; /* Add transition for size change */
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4); /* Add shadow to images */
+}
+
+.featuredItem:hover {
+  transform: scale(1.05); /* Increase size on hover */
+  box-shadow: 0 14px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.featuredImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featuredTitles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  background: rgba(57, 57, 57, 0.5);
+  box-sizing: border-box;
+}
+.text{
+  text-align: start;
+}

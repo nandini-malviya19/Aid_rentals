@@ -1,0 +1,13 @@
+.radio-big{
+    display: flex;
+    margin-top: 20px; 
+}
+.radio-cont {
+    display: flex;   
+    margin: 2px ;
+}
+
+
+input[type="radio"] {
+    margin-right: 5px;
+}

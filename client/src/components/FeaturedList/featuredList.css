@@ -1,0 +1,50 @@
+.fp {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next row */
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.fpItem {
+  flex-basis: calc(25% - 20px); /* Set the width of each item to 25% minus the gap */
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* Add some space between rows */
+}
+
+.fpImg {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.fpName {
+  color: #333;
+  font-weight: bold;
+}
+
+.fpCity {
+  font-weight: 300;
+}
+
+.fpPrice {
+  font-weight: 500;
+}
+
+.fpRating>button {
+  /* background-color: #003580; */
+  color: white;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.fpRating>span {
+  font-size: 14px;
+}

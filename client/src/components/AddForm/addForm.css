@@ -1,0 +1,26 @@
+
+
+
+.bhari{
+  width: 100%;
+}
+
+.PriceandLife {
+  display: flex;
+  justify-content: center; /* Adjust this property to control spacing */
+  align-items: center; /* Align items vertically */
+}
+
+.PriceandLife > div {
+  flex: 1; 
+  margin: 0 10px;
+  
+}
+
+form > div {
+  align-items: center;
+  margin: 10px 0;
+}
+h3{
+  color: aliceblue;
+}

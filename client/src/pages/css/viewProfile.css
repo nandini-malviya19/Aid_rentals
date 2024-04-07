@@ -1,0 +1,23 @@
+.profile_head {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.6rem;
+}
+
+.vgito{
+    display: flex;
+    max-width: 1024px;
+    margin-left: auto; 
+    margin-right: auto;
+    flex-direction: row;
+}
+
+
+.isko-width {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    
+    flex-direction: column;
+   
+}

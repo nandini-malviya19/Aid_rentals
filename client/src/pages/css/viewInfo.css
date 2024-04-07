@@ -1,0 +1,45 @@
+.edit-btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top:3px ;
+    width: 20%;
+    height: 40px;
+}
+.edit-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aadhar{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    width: 25%;
+}
+.form-aadhar{
+        padding: 10px;
+        font-family: Arial, sans-serif; 
+        width: 80%;
+        margin: 0px auto; 
+}
+.aadhar-ver{
+background-color: #0056b3;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 25%;
+  margin: 0px 4px;
+}
+.aadhar-btn{
+    display: flex;
+    justify-content: center;
+}
